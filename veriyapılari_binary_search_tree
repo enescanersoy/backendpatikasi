@@ -1,0 +1,91 @@
+Kural:
+
+Her düğümün solundaki elemanlar o düğümden küçük,
+
+sağindakiler o düğümden büyük olur.
+
+Elemanlar dizi sirasina göre ağaca eklenir.
+
+Ağaç Oluşturma Adimlari
+1. Eleman: 7
+
+İlk eleman her zaman root eleman olur.
+
+Root: 7
+
+2. Eleman: 5
+
+5 < 7 → 7 nin soluna eklenir.
+
+7 nin solunda 5 bulunur.
+
+3. Eleman: 1
+
+1 < 7 sola git
+1 < 5 sola git
+
+5 in soluna 1 eklenir.
+
+4. Eleman: 8
+
+8 > 7 -- 7 nin sağina eklenir.
+
+7 nin sağinda 8 bulunur.
+
+5. Eleman: 3
+
+3 < 7 sola
+3 < 5 sola
+3 > 1 sağa
+
+1 in sağina 3 eklenir.
+
+6. Eleman: 6
+
+6 < 7 sola
+6 > 5 sağa
+
+5 in sağina 6 eklenir.
+
+7. Eleman: 0
+
+0 < 7 sola
+0 < 5 sola
+0 < 1 sola
+
+1 in soluna 0 eklenir.
+
+8. Eleman: 9
+
+9 > 7 sağa
+9 > 8 sağa
+
+8 in sağina 9 eklenir.
+
+9. Eleman: 4
+
+4 < 7 sola
+4 < 5 sola
+4 > 1 sağa
+4 > 3 sağa
+
+3 ün sağina 4 eklenir.
+
+10. Eleman: 2
+
+2 < 7 sola
+2 < 5 sola
+2 > 1 sağa
+2 < 3 sola
+
+3 ün soluna 2 eklenir.
+
+sonuç: 
+
+                   7
+              5        8
+          1      6        9
+       0    3 
+          2   4
+
+gibi bir agac
