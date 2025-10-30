@@ -1,0 +1,23 @@
+PROJE 2 - MERGE SORT
+[16, 21, 11, 8, 12, 22]
+
+Öncelikle ortadan Bol
+Sol: [16, 21, 11]
+Sag: [8, 12, 22]
+
+Sol tarafin bolunmesi:
+[16] ve [21, 11] olarak ayrilir
+[21] ve [11] -> [11, 21]
+[16] ve [11, 21] -> [11, 16, 21]
+
+Sag tarafin bolunmesi:
+[8] ve [12, 22] olarak ayrilir
+[12] ve [22] -> [12, 22]
+[8] ve [12, 22] -> [8, 12, 22]
+
+Son birlestirme:
+[11, 16, 21] ve [8, 12, 22] -> [8, 11, 12, 16, 21, 22]
+Sonuc: [8, 11, 12, 16, 21, 22]
+
+Big-O Gosterimi:
+Time Complexity: O(n.logn)
