@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class main {
-    static void main(String[] args)
+    static void main()
     {
         int Kimya,Biyoloji, Matematik, Fizik;
 
