@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main {
+public class notOrtalamasiHesaplama {
     static void main()
     {
         int Kimya,Biyoloji, Matematik, Fizik;
